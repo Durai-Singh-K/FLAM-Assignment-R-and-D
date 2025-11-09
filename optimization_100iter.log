@@ -1,0 +1,71 @@
+=================================================
+ADVANCED OPTIMIZATION
+==================================================
+Loaded 1500 points
+
+Phase 1: Global Search
+--------------------------------------------------
+Initial L1: 37865.09
+Params: theta=28.118423�, M=0.021389, X=54.902153
+
+Phase 2: Iterative Refinement (100 iterations, no early stopping)
+--------------------------------------------------
+Starting L1: 37865.09
+Iter   1: L1=37707.33, improvement= 157.77 <- NEW BEST
+Iter   2: L1=37678.23, improvement=  29.09 <- NEW BEST
+Iter   3: L1=37664.35, improvement=  13.88 <- NEW BEST
+Iter   4: L1=37654.48, improvement=   9.87 <- NEW BEST
+Iter   5: L1=37647.31, improvement=   7.17 <- NEW BEST
+Iter   6: L1=37643.71, improvement=   3.60 <- NEW BEST
+Iter   7: L1=37641.48, improvement=   2.23 <- NEW BEST
+Iter   8: L1=37640.76, improvement=   0.73 <- NEW BEST
+Iter   9: L1=37639.67, improvement=   1.09 <- NEW BEST
+Iter  10: L1=37639.27, improvement=   0.40 <- NEW BEST
+Iter  11: L1=37638.59, improvement=   0.68 <- NEW BEST
+Iter  12: L1=37638.61, improvement=  -0.02
+Iter  13: L1=37637.75, improvement=   0.85 <- NEW BEST
+Iter  14: L1=37637.73, improvement=   0.02 <- NEW BEST
+Iter  15: L1=37637.95, improvement=  -0.22
+Iter  16: L1=37637.95, improvement=  -0.22
+Iter  17: L1=37637.95, improvement=  -0.22
+Iter  18: L1=37637.95, improvement=  -0.22
+Iter  19: L1=37637.95, improvement=  -0.22
+Iter  20: L1=37637.95, improvement=  -0.22
+Iter  21: L1=37637.95, improvement=  -0.22
+Iter  22: L1=37637.95, improvement=  -0.22
+Iter  23: L1=37637.95, improvement=  -0.22
+Iter  24: L1=37637.95, improvement=  -0.22
+Iter  25: L1=37637.95, improvement=  -0.22
+
+Best L1 found at iteration 14: 37637.73
+
+Phase 3: Fine Grid Search
+--------------------------------------------------
+Tested 132651 combinations
+Best L1: 37637.73
+Params: theta=27.786456�, M=0.019486, X=54.427319
+
+Phase 4: Final Polish
+--------------------------------------------------
+Polish pass 1: L1=37637.57
+Polish pass 2: L1=37637.57
+Polish pass 3: L1=37637.57
+
+==================================================
+FINAL OPTIMIZED SOLUTION
+==================================================
+theta = 0.484965 rad (27.786456 degrees)
+M = 0.019486
+X = 54.427319
+
+L1 Distance: 37637.57
+
+Mean Error: 18.80
+Median Error: 16.35
+Max Error: 52.11
+Std Dev: 12.57
+
+==================================================
+DESMOS SUBMISSION
+==================================================
+\left(t*\cos(0.484965)-e^{0.019486\left|t\right|}\cdot\sin(0.3t)\sin(0.484965)\ +54.427319,42+\ t*\sin(0.484965)+e^{0.019486\left|t\right|}\cdot\sin(0.3t)\cos(0.484965)\right)

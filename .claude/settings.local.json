@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"C:\\Users\\vasud\\Downloads\\Assignment\")",
+      "Bash(python:*)",
+      "Bash(timeout 1800 python:*)",
+      "Bash(tee:*)",
+      "Bash(findstr:*)",
+      "Bash(nul)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
